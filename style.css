@@ -1,0 +1,34 @@
+body {
+    margin: 0,auto;
+}
+h1{
+    font-size: 35px;
+}
+p{
+    padding-bottom: 15px;
+}
+.skip{
+    color:rgb(236, 83, 28);
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding: 7%;
+}
+.half-width img{
+    width: 70%;
+}
+.order-button{
+    text-decoration: none;
+    color:white;
+    padding: 10px 20px;
+    background-image: linear-gradient(tomato,rgb(206, 142, 45));
+    border-radius: 20px;
+    font-weight: 700;
+  
+   
+   
+}
