@@ -1,18 +1,20 @@
 body {
-    margin: 0,auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 35px;
 }
 p{
-    padding-bottom: 15px;
+    padding-bottom: 20px;
+    font-size: 15px;
 }
 .skip{
     color:rgb(236, 83, 28);
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
 }
 .half-width{
     width: 50%;
@@ -25,10 +27,20 @@ p{
     text-decoration: none;
     color:white;
     padding: 10px 20px;
-    background-image: linear-gradient(tomato,rgb(206, 142, 45));
+    background-image: linear-gradient(rgb(224, 26, 43),rgb(238, 171, 71));
     border-radius: 20px;
-    font-weight: 700;
-  
-   
-   
+    font-weight: 700; 
+}
+.top-banner{
+    background-image:url(img/7.png);
+    background-repeat: no-repeat;
+}
+.left{
+    padding-left: 110px;
+}
+h2{
+    padding-top: 40px;
+}
+.right{
+    padding: 7%;
 }
